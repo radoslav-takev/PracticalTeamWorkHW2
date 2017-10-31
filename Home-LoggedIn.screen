@@ -1,0 +1,205 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.0.72"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                Id="2e7e1b9a-8698-4491-829e-62f52c5df254">
+    <Page.Content>
+        <Content Width="1026" Height="813" Id="2dce9232-61fd-451e-92ce-3a7e27c82f73">
+            <Content.Layers>
+                <Layer Id="e45d0067-165b-4d6b-a981-1d6069f5461b" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="e7ef3ef1-80ab-4dcd-a76b-23239d759165" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Id="d995fae3-7537-4ccf-959c-e03e1db681a2" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="98c19004-658d-40b2-a9af-d3b260e4e039" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="10/30/2017 11:44:00" Id="dc062a3d-908a-4149-8110-f58bcca33d12">
+            <Scene.KeyFrames>
+                <KeyFrame Id="191db385-cd2e-497e-8f4b-dfd85fab7161">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="e45d0067-165b-4d6b-a981-1d6069f5461b">
+                            <Add.Item>
+                                <Title RichText="www.ticketstore.com" Id="aef3d5da-6ee9-40bc-ab35-22054b8d3b8e" Panel.Bounds="115,8,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="e45d0067-165b-4d6b-a981-1d6069f5461b">
+                            <Add.Item>
+                                <TextArea Text="Search.." Id="84e61548-d30b-4d6c-ba99-2016586c1f1b" Panel.Bounds="704,49,180{5,2147483647},26{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="e45d0067-165b-4d6b-a981-1d6069f5461b">
+                            <Add.Item>
+                                <Button Text="Search" Id="06c31be4-e116-42ec-9892-cf52eb399026" Panel.Bounds="895,49,80{5,2147483647},26{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="e45d0067-165b-4d6b-a981-1d6069f5461b">
+                            <Add.Item>
+                                <Button Text="Account" Id="27382778-ee32-4e97-a897-58f0d9df537d" Panel.Bounds="895,8,80{5,2147483647},26{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="e45d0067-165b-4d6b-a981-1d6069f5461b">
+                            <Add.Item>
+                                <CoverFlowMock MockType="CoverFlow" Id="999249ee-4a6d-41c0-bc9b-0e4079c73383" Panel.Bounds="220,153,592{5,2147483647},180{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="e45d0067-165b-4d6b-a981-1d6069f5461b">
+                            <Add.Item>
+                                <TextArea Text=" ALL        MUSIC      COMEDY     DANCE      FAMILY     ATTRACTIONS     ABOUT US" Foreground="#FF1C1C1C" FontSize="24" FontStyle="Bold" Id="7063923f-be83-4166-b8a2-7fbdaf7dbaa9" Panel.Bounds="57,91,923{5,2147483647},40{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="e45d0067-165b-4d6b-a981-1d6069f5461b">
+                            <Add.Item>
+                                <TextArea Text="     TOP TICKETS" FontSize="36" FontStyle="Bold" Id="0ffb99db-a0d8-45ba-8e44-db5b06544f3b" Panel.Bounds="359,373,306{5,2147483647},56{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="e45d0067-165b-4d6b-a981-1d6069f5461b">
+                            <Add.Item>
+                                <MultilineButton Title="NIRVANA" TitleFontSize="21" TitleFontStyle="Bold" Hint="Tuesday 28 November 2017 6:30 pm" HintFontSize="8" Id="211bff77-cada-46e0-a52e-8f8f35ccd3fd" Panel.Bounds="359,442,197{5,2147483647},47{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="e45d0067-165b-4d6b-a981-1d6069f5461b">
+                            <Add.Item>
+                                <Button Text="BUY TICKETS " Id="905b0787-5f26-408e-aac1-17e300f32d04" Panel.Bounds="562,442,103{5,2147483647},47{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="e45d0067-165b-4d6b-a981-1d6069f5461b">
+                            <Add.Item>
+                                <MultilineButton Title="The Prodigy" TitleFontSize="21" TitleFontStyle="Bold" Hint="Saturday 16 December 2017 6:30 pm" HintFontSize="8" Id="2e211654-6783-4f1b-aa06-5848d3203c17" Panel.Bounds="359,502,197{5,2147483647},47{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="e45d0067-165b-4d6b-a981-1d6069f5461b">
+                            <Add.Item>
+                                <MultilineButton Title="Placebo" TitleFontSize="21" TitleFontStyle="Bold" Hint="Friday 24 November 2017 6:45 pm" HintFontSize="8" Id="20a812db-91c1-4a44-b30c-8a022478b0c5" Panel.Bounds="359,562,197{5,2147483647},47{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="e45d0067-165b-4d6b-a981-1d6069f5461b">
+                            <Add.Item>
+                                <Button Text="BUY TICKETS " Id="3a72b783-90a5-45fe-8cb9-545367b6f2fa" Panel.Bounds="562,502,103{5,2147483647},47{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="e45d0067-165b-4d6b-a981-1d6069f5461b">
+                            <Add.Item>
+                                <Button Text="BUY TICKETS " Id="271435ff-243a-4805-a3ae-f54c3d551534" Panel.Bounds="562,562,103{5,2147483647},47{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="e45d0067-165b-4d6b-a981-1d6069f5461b">
+                            <Add.Item>
+                                <MultilineButton Title="Bill Bailey" TitleFontSize="21" TitleFontStyle="Bold" Hint="Saturday 24 February 2018 8:00 pm" HintFontSize="8" Id="58ab7e7d-f06b-41d3-b396-a9cfccc7ec82" Panel.Bounds="359,619,197{5,2147483647},47{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="e45d0067-165b-4d6b-a981-1d6069f5461b">
+                            <Add.Item>
+                                <MultilineButton Title="Bananarama" TitleFontSize="21" TitleFontStyle="Bold" Hint="Tuesday 28 November 2017 6:30 pm" HintFontSize="8" Id="4d2ce2b0-d3d0-455e-bdcb-d87a9830f31f" Panel.Bounds="359,679,197{5,2147483647},47{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="e45d0067-165b-4d6b-a981-1d6069f5461b">
+                            <Add.Item>
+                                <Button Text="BUY TICKETS " Id="3caf7a08-42a2-4f23-af57-0ed314cd31dd" Panel.Bounds="562,679,103{5,2147483647},47{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="e45d0067-165b-4d6b-a981-1d6069f5461b">
+                            <Add.Item>
+                                <Button Text="SOLD OUT" Id="93315228-0876-4497-89a9-e084092c4666" Panel.Bounds="562,619,103{5,2147483647},47{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="e45d0067-165b-4d6b-a981-1d6069f5461b">
+                            <Add.Item>
+                                <Icon Color="#FF349C42" Scale="1,1" Id="236ebe83-5fc9-4693-b314-19642c8cfeb1" Panel.Bounds="19,8,77{5,2147483647},77{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="e45d0067-165b-4d6b-a981-1d6069f5461b">
+                            <Add.Item>
+                                <Label RichText="Welcome [User]" FontFamily="Open Sans" Id="45d48104-69b7-4fbe-b346-3fd38b00de97" Panel.Bounds="745,12,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="e45d0067-165b-4d6b-a981-1d6069f5461b">
+                            <Add.Item>
+                                <Label RichText="The Ticket Store | www.ticketstore.com | Powering by eventim | ticketstore.com" FontFamily="Open Sans" Id="54deaf04-2f57-46a2-aabf-daf7ba49ab73" Panel.Bounds="272,782,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="e45d0067-165b-4d6b-a981-1d6069f5461b">
+                            <Add.Item>
+                                <Label RichText="Privacy  Contact Us  Purchase Policy  Gift Voucher T&amp;amp;Cs  Booking Protect   " FontSize="12" FontFamily="Open Sans" Id="07398bd5-831e-4b85-a609-c97653fcd63a" Panel.Bounds="309,758,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="e45d0067-165b-4d6b-a981-1d6069f5461b">
+                            <Add.Item>
+                                <ListBox FontSize="36" Id="ef9ae088-2c33-411a-be5a-a4e865d77e60" Panel.Bounds="696,373,289{5,2147483647},353{5,2147483647}">
+                                    <ListBox.Items>
+                                        <Item Text="ADVERTISING" Id="6b3e02c6-1d1a-43ff-8a0c-4b970c9435b2" />
+                                        <Item Text="ADVERTISING" Id="b0d1d463-5a77-411e-8be9-86764c43dea4" />
+                                        <Item Text="ADVERTISING" Id="e2f42e7a-0c64-4274-994e-a976151afa82" />
+                                        <Item Text="ADVERTISING" Id="a77b5f75-77cc-4c56-a0e5-fe20b3c99827" />
+                                        <Item Text="ADVERTISING" Id="b50f2200-2c9d-409b-9068-27492c4d17a3" />
+                                        <Item Text="ADVERTISING" Id="b7bb8049-bb74-471e-a2fb-a0bae4ad6ecd" />
+                                    </ListBox.Items>
+                                </ListBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="e45d0067-165b-4d6b-a981-1d6069f5461b">
+                            <Add.Item>
+                                <TextArea Text="   UPCOMMING EVENTS" FontSize="24" FontStyle="Bold" Id="9ac1db79-6df3-4943-b7c1-e004655cbab8" Panel.Bounds="31,373,306{5,2147483647},56{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="e45d0067-165b-4d6b-a981-1d6069f5461b">
+                            <Add.Item>
+                                <MultilineButton Title="NIRVANA" TitleFontSize="21" TitleFontStyle="Bold" Hint="Tuesday 28 November 2017 6:30 pm" HintFontSize="8" Id="e543d08d-e537-4e3a-b120-313939d0d4fe" Panel.Bounds="31,442,197{5,2147483647},47{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="e45d0067-165b-4d6b-a981-1d6069f5461b">
+                            <Add.Item>
+                                <Button Text="BUY TICKETS " Id="883af114-8df5-4ec6-b5a9-01357ae0a299" Panel.Bounds="234,442,103{5,2147483647},47{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="e45d0067-165b-4d6b-a981-1d6069f5461b">
+                            <Add.Item>
+                                <MultilineButton Title="The Prodigy" TitleFontSize="21" TitleFontStyle="Bold" Hint="Saturday 16 December 2017 6:30 pm" HintFontSize="8" Id="56da714f-6469-48e5-acc5-e83954221e1f" Panel.Bounds="31,502,197{5,2147483647},47{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="e45d0067-165b-4d6b-a981-1d6069f5461b">
+                            <Add.Item>
+                                <MultilineButton Title="Placebo" TitleFontSize="21" TitleFontStyle="Bold" Hint="Friday 24 November 2017 6:45 pm" HintFontSize="8" Id="ecd20e8a-aebc-4e52-bc68-10af8e393136" Panel.Bounds="31,562,197{5,2147483647},47{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="e45d0067-165b-4d6b-a981-1d6069f5461b">
+                            <Add.Item>
+                                <Button Text="BUY TICKETS " Id="8c88bfb9-2b09-4429-a5f8-3deaf8111f9a" Panel.Bounds="234,502,103{5,2147483647},47{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="e45d0067-165b-4d6b-a981-1d6069f5461b">
+                            <Add.Item>
+                                <Button Text="BUY TICKETS " Id="df70d58e-23d3-4b41-bd4a-c6ecc424511c" Panel.Bounds="234,562,103{5,2147483647},47{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="e45d0067-165b-4d6b-a981-1d6069f5461b">
+                            <Add.Item>
+                                <MultilineButton Title="Bill Bailey" TitleFontSize="21" TitleFontStyle="Bold" Hint="Saturday 24 February 2018 8:00 pm" HintFontSize="8" Id="8fe7f79a-a958-4246-aca5-c8d57022eea4" Panel.Bounds="31,619,197{5,2147483647},47{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="e45d0067-165b-4d6b-a981-1d6069f5461b">
+                            <Add.Item>
+                                <MultilineButton Title="Bananarama" TitleFontSize="21" TitleFontStyle="Bold" Hint="Tuesday 28 November 2017 6:30 pm" HintFontSize="8" Id="5368999e-0111-45c0-9de3-a3cd0dd12344" Panel.Bounds="31,679,197{5,2147483647},47{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="e45d0067-165b-4d6b-a981-1d6069f5461b">
+                            <Add.Item>
+                                <Button Text="BUY TICKETS " Id="35adc702-8140-479f-a0ec-86eeb971cc44" Panel.Bounds="234,679,103{5,2147483647},47{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="e45d0067-165b-4d6b-a981-1d6069f5461b">
+                            <Add.Item>
+                                <Button Text="SOLD OUT" Id="c9cc49e6-e756-48b9-82b9-5a3a2bdb4094" Panel.Bounds="234,619,103{5,2147483647},47{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

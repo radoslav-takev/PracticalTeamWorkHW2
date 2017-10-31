@@ -188,7 +188,7 @@
                             <Add.Item>
                                 <OptionGroup Id="c1369bac-2bd2-498a-a9bd-3a1d9f1589cd" Panel.Bounds="368,758,5*{5,2147483647},5*{5,2147483647}">
                                     <OptionGroup.Items>
-                                        <Option Text="Are you agree with our, Terms and Conditions ?" Id="28fb6e69-0d13-4ba2-8cc6-9353960b2d3a" />
+                                        <Option Text="Do you agree with our, Terms and Conditions ?" Id="28fb6e69-0d13-4ba2-8cc6-9353960b2d3a" />
                                     </OptionGroup.Items>
                                 </OptionGroup>
                             </Add.Item>

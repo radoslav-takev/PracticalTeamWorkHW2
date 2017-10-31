@@ -1,0 +1,92 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.0.72"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                Id="3c1e6899-4307-484b-bd71-47c4f92f0b5f">
+    <Page.Content>
+        <Content Width="1026" Height="813" Id="265e84b0-4bf6-4fe6-b3fe-b62d10deacc7">
+            <Content.Layers>
+                <Layer Id="b1f4ce00-d5c3-447a-ac24-a7275a367013" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="f9c4fda6-0743-4ee9-8f56-08fd8289f461" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Id="f882ce54-ddb8-47af-8746-41d4f5895520" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="89df7b82-37ae-4c1f-8bdd-6d5233438ebc" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="10/31/2017 09:34:46" Id="4054cd0d-fcde-40b8-bd80-7884267ddd50">
+            <Scene.KeyFrames>
+                <KeyFrame Id="585d85b0-eaea-44d7-bdd2-34ae9a1deb5a">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="b1f4ce00-d5c3-447a-ac24-a7275a367013">
+                            <Add.Item>
+                                <Title RichText="Purchase Ticket [Ticket Name]" FontFamily="Open Sans" Id="1cff9457-058b-4013-ac23-07f47811dda4" Panel.Bounds="35,35,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="b1f4ce00-d5c3-447a-ac24-a7275a367013">
+                            <Add.Item>
+                                <Image Tooltip="Ticket Image" Id="730fada2-7087-4105-98c8-eaeebf99be36" Panel.Bounds="89,267,320{5,2147483647},247{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="b1f4ce00-d5c3-447a-ac24-a7275a367013">
+                            <Add.Item>
+                                <TextArea Text="Ticket Description (Place, Time etc.)" Foreground="#FF0E2038" FontSize="16" FontFamily="Source Sans Pro" FontStyle="Bold" IsEnabled="False" Id="418ed3ec-c9fe-47ff-8c6e-6ca69c9c96e6" Panel.Bounds="452,365,499{5,2147483647},149{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="b1f4ce00-d5c3-447a-ac24-a7275a367013">
+                            <Add.Item>
+                                <Button Text="Purchase" Background="#FFD1F0D5" BorderColor="#FFA3E0AB" FontFamily="Open Sans" Id="11dad69f-8eae-4a75-b629-60721b60c389" Panel.Bounds="871,547,80{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="b1f4ce00-d5c3-447a-ac24-a7275a367013">
+                            <Add.Item>
+                                <Title RichText="Ticket Title" FontFamily="Open Sans" Id="71183da9-6e77-4108-bb04-7b7ce4351cb2" Panel.Bounds="597,284,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="b1f4ce00-d5c3-447a-ac24-a7275a367013">
+                            <Add.Item>
+                                <Button Text="Back" FontFamily="Open Sans" Id="98c301b4-8f11-4491-b479-b48a580eac5c" Panel.Bounds="900,47,80{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="b1f4ce00-d5c3-447a-ac24-a7275a367013">
+                            <Add.Item>
+                                <Line Thickness="2" Color="#FF48C157" Background="#00FFFFFF" Id="de8670c9-24f7-4392-b3bf-dfee215f023c" Panel.Bounds="36,120,950,6">
+                                    <Line.StartPoint>
+                                        <Point Id="b5c0667d-f7ff-405d-972b-01be8b66bb2e" />
+                                    </Line.StartPoint>
+                                    <Line.Segments>
+                                        <Segment Id="c1d879af-e190-4657-9250-1da5929b1a87">
+                                            <Segment.EndPoint>
+                                                <Point X="120" Id="28542163-4452-45e4-ac7a-19744121c82e" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                    </Line.Segments>
+                                </Line>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="b1f4ce00-d5c3-447a-ac24-a7275a367013">
+                            <Add.Item>
+                                <Label RichText="&lt;Run FontSize=&quot;18&quot; &gt;Price 00.00$&lt;/Run&gt;" FontFamily="Source Sans Pro" Id="5316d4eb-d172-450a-93cc-31055c3254cd" Panel.Bounds="752,553,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="b1f4ce00-d5c3-447a-ac24-a7275a367013">
+                            <Add.Item>
+                                <Label RichText="The Ticket Store | www.ticketstore.com | Powering by eventim | ticketstore.com" FontFamily="Open Sans" Id="4e779ac3-8b4f-4a02-bdce-c58ee98ac9ec" Panel.Bounds="272,782,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="b1f4ce00-d5c3-447a-ac24-a7275a367013">
+                            <Add.Item>
+                                <Label RichText="Privacy  Contact Us  Purchase Policy  Gift Voucher T&amp;amp;Cs  Booking Protect   " FontSize="12" FontFamily="Open Sans" Id="79e02e61-cc46-4f43-ae1f-fb1c54a49f69" Panel.Bounds="309,758,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>
