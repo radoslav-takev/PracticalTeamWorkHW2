@@ -187,11 +187,21 @@
                         </Add>
                         <Add Property="Panel.Children" Target="cd443920-1212-49c9-8c0e-20dcf797408c">
                             <Add.Item>
-                                <Button Text="Edit" FontFamily="Open Sans" Id="b6a22223-58f7-4979-a8bf-6a98a2569daf" Panel.Bounds="506,101,80{5,2147483647},35{5,2147483647}">
+                                <Button Text="Edit" FontFamily="Open Sans" Id="b6a22223-58f7-4979-a8bf-6a98a2569daf" Panel.Bounds="515,101,85{5,2147483647},35{5,2147483647}">
                                     <Button.MouseOver>
                                         <CommandSwitchTo SceneId="7956f93e-da77-4fe5-b2db-073064c86188" AutoRevertEvent="Control.MouseOut" Created="10/31/2017 17:04:59" Id="45418799-aca5-47af-b729-53414cfc031b" />
                                     </Button.MouseOver>
                                 </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cd443920-1212-49c9-8c0e-20dcf797408c">
+                            <Add.Item>
+                                <Button Text="Delete" FontFamily="Open Sans" Id="170e5e57-03b8-4a57-86b1-a3d46ec0fde3" Panel.Bounds="625,101,80{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cd443920-1212-49c9-8c0e-20dcf797408c">
+                            <Add.Item>
+                                <Button Text="Create new event" FontFamily="Open Sans" Id="4b71ad76-6ef6-4896-830e-07c5998b19e2" Panel.Bounds="822,12,162{5,2147483647},34{5,2147483647}" />
                             </Add.Item>
                         </Add>
                     </KeyFrame.Operations>
