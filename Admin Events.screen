@@ -1,6 +1,6 @@
-﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.0.72"?>
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
 <Page xmlns="http://prototypes.infragistics.com/"
-                                                                                Id="44b9f959-d555-4980-ad51-e8bcb57ffefe">
+                                                                                   Id="44b9f959-d555-4980-ad51-e8bcb57ffefe">
     <Page.Content>
         <Content Width="1010" Height="500" Id="c99d8aea-898e-4a29-952b-f4e3ef845db2">
             <Content.Layers>
@@ -56,11 +56,6 @@
                         <Add Property="Panel.Children" Target="cd443920-1212-49c9-8c0e-20dcf797408c">
                             <Add.Item>
                                 <Button Text="Users" FontFamily="Open Sans" Id="e08155f4-0d23-42bc-9fce-c88225074726" Panel.Bounds="27,276,139{5,2147483647},32{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="cd443920-1212-49c9-8c0e-20dcf797408c">
-                            <Add.Item>
-                                <Button Text="Admins" FontFamily="Open Sans" Id="ae7e0326-fcf8-45f9-b37a-06ce9d3e59b2" Panel.Bounds="27,337,139{5,2147483647},32{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="cd443920-1212-49c9-8c0e-20dcf797408c">
